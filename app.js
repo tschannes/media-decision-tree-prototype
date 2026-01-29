@@ -46,8 +46,8 @@ async function init() {
 
         console.log('App Initialized with', allMedia.length, 'entries');
     } catch (error) {
-        console.error('Error initializing app:', error);
-        elements.mediaGrid.innerHTML = `<p class="error">Error loading data. Please check if 'educational_media_formats.json' exists.</p>`;
+        console.error('Fehler beim Initialisieren der App:', error);
+        elements.mediaGrid.innerHTML = `<p class="error">Fehler beim Laden der Daten. Bitte prüfen Sie, ob 'educational_media_formats.json' existiert.</p>`;
     }
 }
 
@@ -194,8 +194,8 @@ function applyFilters() {
  * Sorting Logic
  */
 function applySorting(mediaList) {
-    const costMap = { 'low': 1, 'medium': 2, 'high': 3 };
-    const activationMap = { 'low': 1, 'medium': 2, 'high': 3, 'very_high': 4 };
+    const costMap = { 'niedrig': 1, 'mittel': 2, 'hoch': 3 };
+    const activationMap = { 'niedrig': 1, 'mittel': 2, 'hoch': 3, 'sehr_hoch': 4 };
 
     return [...mediaList].sort((a, b) => {
         const sortBy = activeFilters.sortBy;
@@ -236,7 +236,7 @@ function resetFilters() {
  * Render Cards
  */
 function renderCards(mediaList) {
-    elements.resultsCount.textContent = `Recommending ${mediaList.length} media formats`;
+    elements.resultsCount.textContent = `Empfehlung von ${mediaList.length} Medienformaten`;
     elements.mediaGrid.innerHTML = '';
 
     if (mediaList.length === 0) {
@@ -264,12 +264,12 @@ function renderCards(mediaList) {
                 ${media.content_nature.slice(0, 2).map(t => `<span class="tag nature">${formatLabel(t)}</span>`).join('')}
                 <span class="tag activation">${formatLabel(media.activation_level)}</span>
                 <span class="tag timing">${media.timing.map(t => formatLabel(t)).join(', ')}</span>
-                <span class="tag cost">${formatLabel(media.cost)} Cost</span>
+                <span class="tag cost">${formatLabel(media.cost)} Aufwand</span>
             </div>
             <div class="media-details">
-                <h4>Description</h4>
-                <p>${media.detailed_description || "No detailed description available."}</p>
-                ${media.image_path ? `<img src="${media.image_path}" alt="${media.label} Preview" class="media-preview-img">` : ''}
+                <h4>Beschreibung</h4>
+                <p>${media.detailed_description || "Keine detaillierte Beschreibung verfügbar."}</p>
+                ${media.image_path ? `<img src="${media.image_path}" alt="${media.label} Vorschau" class="media-preview-img">` : ''}
             </div>
 
         `;

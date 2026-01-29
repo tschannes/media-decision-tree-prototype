@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Educational Media Visualizer</title>
+    <title>Medien in der Lehre | Format finden</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,70 +14,70 @@
 <body>
     <header class="app-header">
         <div class="container">
-            <h1>Educational Media Visualizer</h1>
-            <p>Select criteria to find the best media format for your teaching goal.</p>
+            <h1>Medien in der Lehre: In 5 Schritten zum passenden Format</h1>
+            <p>Machen Sie einige wenige Angaben dazu, wie sie Medien in der Lehre einsetzen wollen und finden Sie die am besten passenden Medienformate für Ihren Kontext.</p>
         </div>
     </header>
 
     <main class="container app-layout">
         <aside class="filters-sidebar">
             <div class="filter-group">
-                <h3>Learning Intention</h3>
-                <p>Choose the learning intention that best aligns with your teaching goal.</p>
+                <h3>1 | Lernintention</h3>
+                <p>Wählen Sie die Lernintention, die am besten zu Ihrem Lehrziel passt.</p>
                 <div id="filter-intention" class="checkbox-group">
                     <!-- Populated by JS -->
                 </div>
             </div>
 
             <div class="filter-group">
-                <h3>Content Nature</h3>
-                <p>Choose the content nature that best aligns with your teaching goal.</p>
+                <h3>2 | Art des Inhalts</h3>
+                <p>Wählen Sie die Art des Inhalts, die am besten zu Ihrem Lehrziel passt.</p>
                 <div id="filter-nature" class="checkbox-group">
                     <!-- Populated by JS -->
                 </div>
             </div>
 
             <div class="filter-group">
-                <h3>Activation Level (Student Role)</h3>
-                <p>Choose the activation level that best aligns with your teaching goal.</p>
+                <h3>3 | Aktivierungsgrad (Rolle der Studierenden)</h3>
+                <p>Wählen Sie den Aktivierungsgrad, der am besten zu Ihrem Lehrziel passt.</p>
                 <select id="filter-activation" class="select-input">
-                    <option value="">Any</option>
+                    <option value="">Beliebig</option>
                     <!-- Populated by JS -->
                 </select>
             </div>
 
             <div class="filter-group">
-                <h3>Timing</h3>
-                <p>Choose how you will employ media in your teaching.</p>
+                <h3>4 | Timing</h3>
+                <p>Wählen Sie, wie Sie Medien in Ihrer Lehre einsetzen werden.</p>
                 <select id="filter-timing" class="select-input">
-                    <option value="">Any</option>
+                    <option value="">Beliebig</option>
                     <!-- Populated by JS -->
                 </select>
             </div>
 
             <div class="filter-group">
-                <h3>Effort / Cost</h3>
-                <p>Indicate how much effort (time/money) is needed.</p>
+                <h3>5 | Aufwand / Kosten</h3>
+                <p>Geben Sie an, wie viel Aufwand (Zeit/Geld) erforderlich ist.</p>
                 <select id="filter-cost" class="select-input">
-                    <option value="">Any</option>
+                    <option value="">Beliebig</option>
                     <!-- Populated by JS -->
                 </select>
             </div>
 
             <div class="filter-actions">
-                <button id="reset-filters" class="btn btn-secondary">Reset Filters</button>
+                <button id="reset-filters" class="btn btn-secondary">Filter zurücksetzen</button>
             </div>
         </aside>
 
         <section class="results-area">
             <div class="results-header">
-                <div id="results-count" class="results-count">Showing all formats</div>
+                <div id="results-count" class="results-count">Alle Formate werden angezeigt</div>
                 <div class="sort-control">
-                    <label for="sort-by">Sort by:</label>
+                    <label for="sort-by">Sortieren nach:</label>
                     <select id="sort-by" class="select-input sort-select">
                         <option value="label">Name (A-Z)</option>
-                        <option value="cost">Cost (Low to High)</option>
-                        <option value="activation_level">Activation Level</option>
+                        <option value="cost">Kosten (Niedrig bis Hoch)</option>
+                        <option value="activation_level">Aktivierungsgrad</option>
                     </select>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                 <!-- Cards Populated by JS -->
             </div>
             <div id="no-results" class="no-results hidden">
-                <p>No media formats match your criteria. Try adjusting the filters.</p>
+                <p>Keine Medienformate entsprechen Ihren Kriterien. Versuchen Sie, die Filter anzupassen.</p>
             </div>
         </section>
     </main>
