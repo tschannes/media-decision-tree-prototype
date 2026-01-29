@@ -1,0 +1,339 @@
+{
+    "metadata_schema": {
+        "learning_intention": [
+            "orientieren_und_informieren",
+            "verstehen_und_strukturieren",
+            "vertiefen_und_transferieren",
+            "anwenden_und_ueben",
+            "reflektieren_und_kritisches_denken",
+            "diskutieren_und_aktivieren"
+        ],
+        "content_nature": [
+            "theoretisch_und_konzeptionell",
+            "praxisnah_und_anwendungsorientiert",
+            "prozesshaft_und_erklaerend",
+            "erfahrungsbasiert_und_kontextuell",
+            "diskursiv_und_mehrperspektivisch",
+            "visuell_und_strukturiert",
+            "wissens_und_entscheidungsorientiert"
+        ],
+        "activation_level": [
+            "niedrig",
+            "mittel",
+            "hoch",
+            "sehr_hoch"
+        ],
+        "timing": [
+            "asynchron",
+            "synchron",
+            "hybrid"
+        ],
+        "cost": [
+            "niedrig",
+            "mittel",
+            "hoch"
+        ]
+    },
+    "media_formats": [
+        {
+            "id": "text_medium",
+            "label": "Text als Medium",
+            "learning_intention": [
+                "orientieren_und_informieren",
+                "verstehen_und_strukturieren",
+                "vertiefen_und_transferieren",
+                "reflektieren_und_kritisches_denken"
+            ],
+            "content_nature": [
+                "theoretisch_und_konzeptionell",
+                "wissens_und_entscheidungsorientiert"
+            ],
+            "activation_level": "mittel",
+            "timing": [
+                "asynchron"
+            ],
+            "notes": "Ermöglicht selbstgesteuertes Lernen im eigenen Tempo; unterstützt vertiefte Auseinandersetzung.",
+            "detailed_description": "Text als Medium ermöglicht eine intensive und individuelle Auseinandersetzung mit Lerninhalten. Durch Strategien wie Markieren, Zusammenfassen und Kommentieren können Studierende Inhalte aktiv verarbeiten. Es eignet sich hervorragend für Grundlagen, komplexe theoretische Zusammenhänge und die Förderung von Lesekompetenz.",
+            "cost": "niedrig",
+            "image_path": "assets/images/text.png"
+        },
+        {
+            "id": "studio_input",
+            "label": "Studio-Input (Talking Head)",
+            "learning_intention": [
+                "orientieren_und_informieren",
+                "verstehen_und_strukturieren"
+            ],
+            "content_nature": [
+                "theoretisch_und_konzeptionell"
+            ],
+            "activation_level": "niedrig",
+            "timing": [
+                "asynchron"
+            ],
+            "notes": "Stärkt die soziale Präsenz und bietet Orientierung im Selbststudium.",
+            "detailed_description": "Bei diesem Format steht die dozierende Person im Zentrum und spricht die Studierenden direkt an. Dies fordert die Bindung und hilft dabei, wichtige Inhalte zu gewichten und einzuordnen. Es ist ideal für Begrüßungen, Zusammenfassungen oder die Einordnung komplexer Themen in den Gesamtzusammenhang.",
+            "cost": "hoch",
+            "image_path": "assets/images/video.png"
+        },
+        {
+            "id": "visual_explanation",
+            "label": "Visuelle Erklärung / Legetechnik",
+            "learning_intention": [
+                "verstehen_und_strukturieren"
+            ],
+            "content_nature": [
+                "theoretisch_und_konzeptionell",
+                "prozesshaft_und_erklaerend",
+                "visuell_und_strukturiert"
+            ],
+            "activation_level": "mittel",
+            "timing": [
+                "asynchron"
+            ],
+            "notes": "Macht komplexe Inhalte durch visuelle Darstellung leichter erfassbar.",
+            "detailed_description": "Grafiken, Illustrationen oder die Legetechnik helfen dabei, abstrakte Zusammenhänge sichtbar zu machen. Die Kombination aus Bild und Ton (Dual Coding) reduziert die kognitive Belastung und unterstützt das langfristige Behalten von Informationen.",
+            "cost": "mittel",
+            "image_path": "assets/images/visual.png"
+        },
+        {
+            "id": "screenrecording",
+            "label": "Screenrecording / Software-Demo",
+            "learning_intention": [
+                "anwenden_und_ueben"
+            ],
+            "content_nature": [
+                "praxisnah_und_anwendungsorientiert",
+                "prozesshaft_und_erklaerend"
+            ],
+            "activation_level": "mittel",
+            "timing": [
+                "asynchron"
+            ],
+            "notes": "Ideal für die Vermittlung von praktischen Arbeitsschritten an Software.",
+            "detailed_description": "Screenrecordings zeigen genau, wie Aufgaben in einer Softwareumgebung gelöst werden. Studierende können die Schritte in ihrem eigenen Tempo nachvollziehen und direkt anwenden. Dies ist besonders wertvoll für IT- Kurse, Datenanalyse oder die Einführung in digitale Werkzeuge.",
+            "cost": "niedrig",
+            "image_path": "assets/images/video.png"
+        },
+        {
+            "id": "powerpoint_narration",
+            "label": "Vertonte PowerPoint-Präsentation",
+            "learning_intention": [
+                "orientieren_und_informieren",
+                "verstehen_und_strukturieren"
+            ],
+            "content_nature": [
+                "theoretisch_und_konzeptionell",
+                "wissens_und_entscheidungsorientiert"
+            ],
+            "activation_level": "niedrig",
+            "timing": [
+                "asynchron"
+            ],
+            "notes": "Einfach zu erstellendes Format zur strukturierten Inhaltsvermittlung.",
+            "detailed_description": "Ein Klassiker der E-Learning-Produktion. Erlaubt es Dozierenden, bestehende Folien mit Erklärungen anzureichern. Wichtig ist hierbei eine klare Struktur und die Konzentration auf wesentliche Aussagen pro Folie, um die Aufmerksamkeit hochzuhalten.",
+            "cost": "niedrig",
+            "image_path": "assets/images/text.png"
+        },
+        {
+            "id": "interview_format",
+            "label": "Interview",
+            "learning_intention": [
+                "vertiefen_und_transferieren",
+                "reflektieren_und_kritisches_denken"
+            ],
+            "content_nature": [
+                "praxisnah_und_anwendungsorientiert",
+                "erfahrungsbasiert_und_kontextuell"
+            ],
+            "activation_level": "mittel",
+            "timing": [
+                "asynchron",
+                "synchron"
+            ],
+            "notes": "Bezieht Praxiswissen und unterschiedliche Perspektiven ein.",
+            "detailed_description": "Interviews mit ExpertInnen aus der Praxis oder Wissenschaft bieten authentische Einblicke und fördern den Theorie-Praxis-Transfer. Sie zeigen auf, wie Konzepte in der Realität angewendet werden und regen zur kritischen Reflexion an.",
+            "cost": "mittel",
+            "image_path": "assets/images/video.png"
+        },
+        {
+            "id": "dialog_format",
+            "label": "Dialog- oder Gesprächsformat",
+            "learning_intention": [
+                "reflektieren_und_kritisches_denken"
+            ],
+            "content_nature": [
+                "diskursiv_und_mehrperspektivisch"
+            ],
+            "activation_level": "hoch",
+            "timing": [
+                "asynchron",
+                "synchron"
+            ],
+            "notes": "Macht Denkprozesse durch den Austausch mehrerer Personen sichtbar.",
+            "detailed_description": "Ein Gespräch zwischen zwei oder mehr Personen kann verschiedene Facetten eines Thema beleuchten. Es fordert Studierende dazu auf, Argumente abzuwägen und sich eine eigene Meinung zu bilden. Besonders geeignet für kontroverse Themen.",
+            "cost": "mittel",
+            "image_path": "assets/images/forum.png"
+        },
+        {
+            "id": "interactive_video",
+            "label": "Interaktives Video",
+            "learning_intention": [
+                "anwenden_und_ueben",
+                "reflektieren_und_kritisches_denken",
+                "diskutieren_und_aktivieren"
+            ],
+            "content_nature": [
+                "praxisnah_und_anwendungsorientiert",
+                "wissens_und_entscheidungsorientiert"
+            ],
+            "activation_level": "hoch",
+            "timing": [
+                "asynchron"
+            ],
+            "notes": "Vermeidet passives Konsumieren durch integrierte Entscheidungspunkte.",
+            "detailed_description": "Interaktive Videos binden Fragen, Links oder Verzweigungen direkt in den Videostream ein. Studierende müssen Entscheidungen treffen oder Wissen anwenden, um fortzufahren. Dies erhöht das Engagement und gibt unmittelbares Feedback zum Lernstand.",
+            "cost": "hoch",
+            "image_path": "assets/images/interactive.png"
+        },
+        {
+            "id": "podcast_audio",
+            "label": "Podcast / Audioformat",
+            "learning_intention": [
+                "vertiefen_und_transferieren",
+                "reflektieren_und_kritisches_denken"
+            ],
+            "content_nature": [
+                "erfahrungsbasiert_und_kontextuell",
+                "diskursiv_und_mehrperspektivisch"
+            ],
+            "activation_level": "niedrig",
+            "timing": [
+                "asynchron"
+            ],
+            "notes": "Ermöglicht zeit- und ortsunabhängiges Lernen.",
+            "detailed_description": "Audioformate sind hochflexibel und können in fast jede Alltagssituation integriert werden. Sie eignen sich hervorragend für erzählende Inhalte, Reportagen oder zur Reflexion. Ohne die visuelle Ablenkung können sich Studierende voll auf die Argumentation konzentrieren.",
+            "cost": "mittel",
+            "image_path": "assets/images/audio.png"
+        },
+        {
+            "id": "practical_demonstration",
+            "label": "Demonstrationsvideo (praktische Anwendung)",
+            "learning_intention": [
+                "vertiefen_und_transferieren",
+                "anwenden_und_ueben"
+            ],
+            "content_nature": [
+                "praxisnah_und_anwendungsorientiert",
+                "prozesshaft_und_erklaerend"
+            ],
+            "activation_level": "mittel",
+            "timing": [
+                "asynchron"
+            ],
+            "notes": "Unterstützt das Verständnis von Handlungen und praktischen Methoden.",
+            "detailed_description": "Hier werden echte Arbeitsabläufe, Experimente oder Handgriffe gefilmt. Dies ermöglicht es Studierenden, komplexe physische oder verfahrenstechnische Abläufe aus nächster Nähe zu beobachten und die zugrunde liegenden Prinzipien zu verstehen.",
+            "cost": "hoch",
+            "image_path": "assets/images/video.png"
+        },
+        {
+            "id": "impulse_video",
+            "label": "Impulsvideo (kurz)",
+            "learning_intention": [
+                "diskutieren_und_aktivieren"
+            ],
+            "content_nature": [
+                "diskursiv_und_mehrperspektivisch"
+            ],
+            "activation_level": "mittel",
+            "timing": [
+                "asynchron",
+                "synchron"
+            ],
+            "notes": "Regt zum Nachdenken an und fördert die Motivation.",
+            "detailed_description": "Kurze, knackige Videos (oft < 2 Minuten), die eine spannende Frage aufwerfen, ein Paradoxon zeigen oder Neugierde wecken. Ideal als Einstieg in ein Modul oder als Vorbereitung für eine Live-Diskussion.",
+            "cost": "niedrig",
+            "image_path": "assets/images/video.png"
+        },
+        {
+            "id": "infographic_static",
+            "label": "Infografik",
+            "learning_intention": [
+                "orientieren_und_informieren",
+                "verstehen_und_strukturieren"
+            ],
+            "content_nature": [
+                "theoretisch_und_konzeptionell",
+                "visuell_und_strukturiert"
+            ],
+            "activation_level": "niedrig",
+            "timing": [
+                "asynchron"
+            ],
+            "notes": "Stellt Informationen visuell verdichtet dar.",
+            "detailed_description": "Infografiken kombinieren Text und Bild, um komplexe Daten oder Prozesse auf einen Blick erfassbar zu machen. Sie dienen als hervorragendes 'Anker-Wissen' und eignen sich sehr gut als Repetitionsmaterial oder Übersicht.",
+            "cost": "mittel",
+            "image_path": "assets/images/visual.png"
+        },
+        {
+            "id": "scientific_poster",
+            "label": "Scientific Poster",
+            "learning_intention": [
+                "verstehen_und_strukturieren"
+            ],
+            "content_nature": [
+                "visuell_und_strukturiert"
+            ],
+            "activation_level": "hoch",
+            "timing": [
+                "asynchron",
+                "synchron"
+            ],
+            "notes": "Fördert das Verständnis von Forschungsfragen und wissenschaftlicher Methodik.",
+            "detailed_description": "Scientific Posters präsentieren Forschungsergebnisse in einem standardisierten, visuellen Format. Sie fordern dazu auf, das Wesentliche einer Untersuchung prägnant darzustellen und unterstützen die fachliche Diskussion.",
+            "cost": "niedrig",
+            "image_path": "assets/images/visual.png"
+        },
+        {
+            "id": "lightboard_video",
+            "label": "Lightboard Video",
+            "learning_intention": [
+                "verstehen_und_strukturieren",
+                "anwenden_und_ueben"
+            ],
+            "content_nature": [
+                "prozesshaft_und_erklaerend",
+                "visuell_und_strukturiert"
+            ],
+            "activation_level": "mittel",
+            "timing": [
+                "asynchron"
+            ],
+            "notes": "Unterstützt das schrittweise Nachvollziehen von Denk- und Lösungsprozessen.",
+            "detailed_description": "Dozierende schreiben auf eine Glasscheibe, während sie die Lerninhalte erklären. Das Besondere: Die Person ist weiterhin sichtbar, was die Bindung zum Lernprozess erhöht. Besonders stark bei mathematischen oder logischen Herleitungen.",
+            "cost": "hoch",
+            "image_path": "assets/images/video.png"
+        },
+        {
+            "id": "explainer_animation",
+            "label": "Explainer Animation (Vyond)",
+            "learning_intention": [
+                "orientieren_und_informieren",
+                "verstehen_und_strukturieren",
+                "diskutieren_und_aktivieren"
+            ],
+            "content_nature": [
+                "theoretisch_und_konzeptionell",
+                "visuell_und_strukturiert"
+            ],
+            "activation_level": "niedrig",
+            "timing": [
+                "asynchron"
+            ],
+            "notes": "Eignet sich besonders zur Einführung in neue Themengebiete.",
+            "detailed_description": "Nutzt Storytelling und vereinfachte Charaktere, um Hürden abzubauen und den Einstieg in komplexe Themen zu erleichtern. Die visuelle Metapher steht hier im Vordergrund, um Abstraktes 'begreifbar' zu machen.",
+            "cost": "hoch",
+            "image_path": "assets/images/video.png"
+        }
+    ]
+}

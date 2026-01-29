@@ -33,7 +33,7 @@ const elements = {
  */
 async function init() {
     try {
-        const response = await fetch('educational_media_formats.json');
+        const response = await fetch('educational_media_formats_v3.json');
         if (!response.ok) throw new Error('Failed to load data');
 
         const data = await response.json();
@@ -284,8 +284,17 @@ function renderCards(mediaList) {
 function formatLabel(str) {
     if (!str) return '';
     return str.split('_')
-        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-        .join(' ');
+        .map(word => {
+            let formatted = word.charAt(0).toUpperCase() + word.slice(1);
+            return formatted;
+        })
+        .join(' ')
+        .replace(/\bUnd\b/g, '&')
+        .replace(/ae/g, 'ä')
+        .replace(/Ae/g, 'Ä')
+        .replace(/ue(?!ll)/g, 'ü')
+        .replace(/Ue(?!ll)/g, 'Ü')
+        .replace(/ẞ/g, 'ss');
 }
 
 // Start

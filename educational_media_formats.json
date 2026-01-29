@@ -53,12 +53,13 @@
     "media_formats":
     [
         {
-            "id": "lecture_video",
-            "label": "Vorlesungsaufzeichnung",
+            "id": "studio_input",
+            "label": "Studio-Input, Talking Head Video",
             "learning_intention":
             [
                 "einführen",
-                "erklären"
+                "erklären",
+                "analysieren"
             ],
             "content_nature":
             [
