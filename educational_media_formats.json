@@ -1,0 +1,450 @@
+{
+  "metadata_schema": {
+    "learning_intention": [
+      "introduce",
+      "explain",
+      "practice",
+      "analyze",
+      "evaluate",
+      "create",
+      "communicate",
+      "motivate"
+    ],
+    "content_nature": [
+      "conceptual",
+      "procedural",
+      "factual",
+      "interpretive",
+      "visual_spatial",
+      "experiential",
+      "mixed"
+    ],
+    "activation_level": [
+      "low",
+      "medium",
+      "high",
+      "very_high"
+    ],
+    "timing": [
+      "asynchronous",
+      "synchronous",
+      "hybrid"
+    ],
+    "student_role": [
+      "consume",
+      "interact",
+      "apply",
+      "discuss",
+      "produce"
+    ],
+    "cost": [
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "media_formats": [
+    {
+      "id": "lecture_video",
+      "label": "Recorded Lecture Video",
+      "learning_intention": [
+        "introduce",
+        "explain"
+      ],
+      "content_nature": [
+        "conceptual",
+        "factual"
+      ],
+      "activation_level": "low",
+      "student_role": [
+        "consume"
+      ],
+      "timing": [
+        "asynchronous"
+      ],
+      "notes": "Effective for first exposure; benefits from guiding questions or embedded quizzes.",
+      "detailed_description": "Recorded lectures provide a flexible way for students to access content at their own pace. They can pause, rewind, and review complex sections. To maximize effectiveness, keep videos short (6-10 minutes) and integrate active learning elements like embedded questions.",
+      "cost": "medium",
+      "image_path": "assets/images/video.png"
+    },
+    {
+      "id": "live_lecture",
+      "label": "Live Lecture / Stream",
+      "learning_intention": [
+        "introduce",
+        "explain",
+        "discuss"
+      ],
+      "content_nature": [
+        "conceptual",
+        "interpretive"
+      ],
+      "activation_level": "medium",
+      "student_role": [
+        "consume",
+        "interact"
+      ],
+      "timing": [
+        "synchronous"
+      ],
+      "notes": "Allows real-time clarification and interaction.",
+      "cost": "high",
+      "detailed_description": "Live lectures or streams offer immediate feedback and the opportunity for social presence. They are best used for interactive discussions, clarifying misconceptions, and building community, rather than just delivering content.",
+      "image_path": "assets/images/video.png"
+    },
+    {
+      "id": "animation",
+      "label": "Explanatory Animation",
+      "learning_intention": [
+        "explain"
+      ],
+      "content_nature": [
+        "conceptual",
+        "procedural",
+        "visual_spatial"
+      ],
+      "activation_level": "low",
+      "student_role": [
+        "consume"
+      ],
+      "timing": [
+        "asynchronous"
+      ],
+      "notes": "Strong for dynamic or invisible processes.",
+      "cost": "high",
+      "detailed_description": "Explanatory animations visualize abstract concepts or invisible processes (like molecular interactions). They reduce cognitive load by presenting visual and auditory information simultaneously.",
+      "image_path": "assets/images/video.png"
+    },
+    {
+      "id": "screencast",
+      "label": "Screencast / Demonstration Video",
+      "learning_intention": [
+        "explain",
+        "practice"
+      ],
+      "content_nature": [
+        "procedural"
+      ],
+      "activation_level": "medium",
+      "student_role": [
+        "consume",
+        "apply"
+      ],
+      "timing": [
+        "asynchronous"
+      ],
+      "notes": "Ideal for tools, software, and workflows.",
+      "cost": "low",
+      "detailed_description": "Screencasts are excellent for teaching software, coding, or navigational tasks. They model the exact steps a student needs to take, often accompanied by a think-aloud narration.",
+      "image_path": "assets/images/video.png"
+    },
+    {
+      "id": "podcast",
+      "label": "Podcast / Audio Lecture",
+      "learning_intention": [
+        "introduce",
+        "explain",
+        "interpret"
+      ],
+      "content_nature": [
+        "conceptual",
+        "interpretive"
+      ],
+      "activation_level": "low",
+      "student_role": [
+        "consume"
+      ],
+      "timing": [
+        "asynchronous"
+      ],
+      "notes": "Works well for narrative, argumentation, and expert voices.",
+      "cost": "medium",
+      "detailed_description": "Podcasts are portable and allow for learning while commuting or doing other tasks. They are particularly effective for storytelling, interviews, and presenting multiple viewpoints on a topic.",
+      "image_path": "assets/images/audio.png"
+    },
+    {
+      "id": "textbook",
+      "label": "Textbook Chapter / Reading",
+      "learning_intention": [
+        "explain",
+        "analyze"
+      ],
+      "content_nature": [
+        "conceptual",
+        "factual"
+      ],
+      "activation_level": "medium",
+      "student_role": [
+        "consume",
+        "interact"
+      ],
+      "timing": [
+        "asynchronous"
+      ],
+      "notes": "Becomes active with annotation or guiding questions.",
+      "cost": "low",
+      "detailed_description": "Textbooks provide structured, comprehensive coverage of a subject. They are best used in conjunction with active reading strategies, such as annotation, summarization, or answering guiding questions.",
+      "image_path": "assets/images/text.png"
+    },
+    {
+      "id": "scientific_paper",
+      "label": "Scientific Paper",
+      "learning_intention": [
+        "analyze",
+        "evaluate"
+      ],
+      "content_nature": [
+        "conceptual",
+        "interpretive"
+      ],
+      "activation_level": "high",
+      "student_role": [
+        "analyze",
+        "discuss"
+      ],
+      "timing": [
+        "asynchronous"
+      ],
+      "notes": "Core medium for advanced academic literacy.",
+      "cost": "high",
+      "detailed_description": "Reading scientific papers introduces students to the discourse of the discipline. It requires scaffolding, such as analyzing the structure (IMRaD) and evaluating the methodology and results.",
+      "image_path": "assets/images/text.png"
+    },
+    {
+      "id": "infographic",
+      "label": "Infographic",
+      "learning_intention": [
+        "explain",
+        "summarize"
+      ],
+      "content_nature": [
+        "conceptual",
+        "visual_spatial"
+      ],
+      "activation_level": "low",
+      "student_role": [
+        "consume"
+      ],
+      "timing": [
+        "asynchronous"
+      ],
+      "notes": "Reduces cognitive load; useful for synthesis.",
+      "cost": "medium",
+      "detailed_description": "Infographics present complex data or information quickly and clearly. They are excellent for summarizing key points, timelines, or statistical relationships in a visually promoting way.",
+      "image_path": "assets/images/visual.png"
+    },
+    {
+      "id": "concept_map",
+      "label": "Diagram / Concept Map",
+      "learning_intention": [
+        "explain",
+        "analyze"
+      ],
+      "content_nature": [
+        "conceptual",
+        "visual_spatial"
+      ],
+      "activation_level": "medium",
+      "student_role": [
+        "interact",
+        "produce"
+      ],
+      "timing": [
+        "asynchronous",
+        "synchronous"
+      ],
+      "notes": "Very effective when students create or modify maps.",
+      "cost": "medium",
+      "detailed_description": "Concept maps help students organize and represent knowledge. Creating a concept map requires students to identify key concepts and the relationships between them, promoting deep learning.",
+      "image_path": "assets/images/visual.png"
+    },
+    {
+      "id": "interactive_simulation",
+      "label": "Interactive Simulation",
+      "learning_intention": [
+        "practice",
+        "analyze"
+      ],
+      "content_nature": [
+        "conceptual",
+        "procedural"
+      ],
+      "activation_level": "high",
+      "student_role": [
+        "apply"
+      ],
+      "timing": [
+        "asynchronous",
+        "hybrid"
+      ],
+      "notes": "Supports exploration and hypothesis testing.",
+      "cost": "high",
+      "detailed_description": "Interactive simulations allow students to manipulate variables and observe the effects, fostering inquiry-based learning. They are safe environments for testing hypotheses and exploring 'what-if' scenarios.",
+      "image_path": "assets/images/interactive.png"
+    },
+    {
+      "id": "virtual_lab",
+      "label": "Virtual Lab / Field Trip",
+      "learning_intention": [
+        "practice",
+        "apply",
+        "analyze"
+      ],
+      "content_nature": [
+        "procedural",
+        "experiential"
+      ],
+      "activation_level": "very_high",
+      "student_role": [
+        "apply"
+      ],
+      "timing": [
+        "hybrid"
+      ],
+      "notes": "Strong substitute or preparation for physical labs.",
+      "cost": "high",
+      "detailed_description": "Virtual labs provide a simulated laboratory environment where students can practice procedures and data analysis. They are valuable for pre-lab preparation or when physical resources are limited.",
+      "image_path": "assets/images/interactive.png"
+    },
+    {
+      "id": "quiz",
+      "label": "Interactive Quiz / Knowledge Check",
+      "learning_intention": [
+        "practice",
+        "evaluate"
+      ],
+      "content_nature": [
+        "factual",
+        "conceptual"
+      ],
+      "activation_level": "medium",
+      "student_role": [
+        "interact"
+      ],
+      "timing": [
+        "asynchronous",
+        "synchronous"
+      ],
+      "notes": "Best used with feedback, not just grading.",
+      "cost": "low",
+      "detailed_description": "Interactive quizzes provide immediate feedback, helping students assess their own understanding. They are most effective when used for formative assessment to guide future study.",
+      "image_path": "assets/images/interactive.png"
+    },
+    {
+      "id": "discussion_forum",
+      "label": "Online Discussion Forum",
+      "learning_intention": [
+        "analyze",
+        "evaluate",
+        "communicate"
+      ],
+      "content_nature": [
+        "interpretive"
+      ],
+      "activation_level": "high",
+      "student_role": [
+        "discuss",
+        "produce"
+      ],
+      "timing": [
+        "asynchronous"
+      ],
+      "notes": "Supports social knowledge construction.",
+      "cost": "low",
+      "detailed_description": "Discussion forums enable asynchronous communication, allowing students time to reflect before posting. They support collaborative learning and the construction of shared knowledge.",
+      "image_path": "assets/images/forum.png"
+    },
+    {
+      "id": "student_poster",
+      "label": "Student Poster / Infographic",
+      "learning_intention": [
+        "create",
+        "communicate"
+      ],
+      "content_nature": [
+        "conceptual",
+        "interpretive"
+      ],
+      "activation_level": "high",
+      "student_role": [
+        "produce"
+      ],
+      "timing": [
+        "asynchronous"
+      ],
+      "notes": "Excellent for synthesis and audience awareness.",
+      "cost": "low",
+      "detailed_description": "Creating posters challenges students to synthesize information and present it visually for a specific audience. It promotes concise communication and graphic design skills.",
+      "image_path": "assets/images/visual.png"
+    },
+    {
+      "id": "presentation",
+      "label": "Student Presentation (Slides / Video)",
+      "learning_intention": [
+        "create",
+        "communicate"
+      ],
+      "content_nature": [
+        "mixed"
+      ],
+      "activation_level": "high",
+      "student_role": [
+        "produce"
+      ],
+      "timing": [
+        "synchronous",
+        "asynchronous"
+      ],
+      "notes": "Encourages structured explanation and reflection.",
+      "cost": "low",
+      "detailed_description": "Student presentations require mastery of the content to explain it to others. They develop oral communication skills and can be done synchronously or as recorded videos.",
+      "image_path": "assets/images/video.png"
+    },
+    {
+      "id": "portfolio",
+      "label": "Digital Portfolio / Blog",
+      "learning_intention": [
+        "create",
+        "reflect"
+      ],
+      "content_nature": [
+        "interpretive",
+        "mixed"
+      ],
+      "activation_level": "very_high",
+      "student_role": [
+        "produce"
+      ],
+      "timing": [
+        "asynchronous"
+      ],
+      "notes": "Supports longitudinal learning and metacognition.",
+      "cost": "high",
+      "detailed_description": "Portfolios organize student work over time, demonstrating growth and achievement. They encourage metacognition as students select and reflect on their best work.",
+      "image_path": "assets/images/text.png"
+    },
+    {
+      "id": "serious_game",
+      "label": "Serious Game / Gamified Activity",
+      "learning_intention": [
+        "practice",
+        "apply"
+      ],
+      "content_nature": [
+        "procedural",
+        "experiential"
+      ],
+      "activation_level": "very_high",
+      "student_role": [
+        "apply"
+      ],
+      "timing": [
+        "asynchronous"
+      ],
+      "notes": "High engagement; requires careful alignment.",
+      "cost": "high",
+      "detailed_description": "Serious games use game mechanics for educational purposes. They can increase motivation and engagement, providing immersive environments for practicing skills and problem-solving.",
+      "image_path": "assets/images/interactive.png"
+    }
+  ]
+}

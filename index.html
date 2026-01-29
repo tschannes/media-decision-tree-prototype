@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Media Visualizer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="app-header">
+        <div class="container">
+            <h1>Educational Media Visualizer</h1>
+            <p>Select criteria to find the best media format for your teaching goal.</p>
+        </div>
+    </header>
+
+    <main class="container app-layout">
+        <aside class="filters-sidebar">
+            <div class="filter-group">
+                <h3>Learning Intention</h3>
+                <p>Choose the learning intention that best aligns with your teaching goal.</p>
+                <div id="filter-intention" class="checkbox-group">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Content Nature</h3>
+                <p>Choose the content nature that best aligns with your teaching goal.</p>
+                <div id="filter-nature" class="checkbox-group">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Activation Level (Student Role)</h3>
+                <p>Choose the activation level that best aligns with your teaching goal.</p>
+                <select id="filter-activation" class="select-input">
+                    <option value="">Any</option>
+                    <!-- Populated by JS -->
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <h3>Timing</h3>
+                <p>Choose how you will employ media in your teaching.</p>
+                <select id="filter-timing" class="select-input">
+                    <option value="">Any</option>
+                    <!-- Populated by JS -->
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <h3>Effort / Cost</h3>
+                <p>Indicate how much effort (time/money) is needed.</p>
+                <select id="filter-cost" class="select-input">
+                    <option value="">Any</option>
+                    <!-- Populated by JS -->
+                </select>
+            </div>
+
+            <div class="filter-actions">
+                <button id="reset-filters" class="btn btn-secondary">Reset Filters</button>
+            </div>
+        </aside>
+
+        <section class="results-area">
+            <div class="results-header">
+                <div id="results-count" class="results-count">Showing all formats</div>
+                <div class="sort-control">
+                    <label for="sort-by">Sort by:</label>
+                    <select id="sort-by" class="select-input sort-select">
+                        <option value="label">Name (A-Z)</option>
+                        <option value="cost">Cost (Low to High)</option>
+                        <option value="activation_level">Activation Level</option>
+                    </select>
+                </div>
+            </div>
+            <div id="media-grid" class="media-grid">
+                <!-- Cards Populated by JS -->
+            </div>
+            <div id="no-results" class="no-results hidden">
+                <p>No media formats match your criteria. Try adjusting the filters.</p>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+
+</html>
